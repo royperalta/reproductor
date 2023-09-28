@@ -1,0 +1,8 @@
+input[type="range"]{
+    --range-progress:100%;
+}
+
+input[type="range"]::before{
+    background: #f50;
+    width: var(--range-progress);
+}
