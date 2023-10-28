@@ -3,6 +3,8 @@ import Contenido from './components/Contenido'
 import Footer from './components/Footer'
 
 
+
+
 export default function Home() {  
 
   return (

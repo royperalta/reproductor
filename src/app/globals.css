@@ -7,3 +7,15 @@ body {
   color:white
 }
 
+.widget {
+  width: 500px;
+  height: 700px;
+}
+
+@media (max-width:500px){
+  .widget {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+  }
+}
